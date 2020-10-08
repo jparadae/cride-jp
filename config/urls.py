@@ -5,6 +5,8 @@ from django.urls import include, path
 from django.conf.urls.static import static
 from django.contrib import admin
 
+#import ipdb; ipdb.set_trace()
+
 urlpatterns = [
     # Django Admin
     path(settings.ADMIN_URL, admin.site.urls),

@@ -49,7 +49,7 @@ THIRD_PARTY_APPS = [
     'django_filters'
 ]
 LOCAL_APPS = [
-    'cride.users.apps.UsersAppConfig',
+    'cride.usuarios.apps.UsuariosAppConfig',
     'cride.circles.apps.CirclesAppConfig',
     'cride.rides.apps.RidesAppConfig',
 ]
