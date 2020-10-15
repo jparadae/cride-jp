@@ -30,8 +30,8 @@ ROOT_URLCONF = 'config.urls'
 # WSGI
 WSGI_APPLICATION = 'config.wsgi.application'
 
-# Users & Authentication
-AUTH_USER_MODEL = 'users.User'
+# Usuarios & Authentication
+AUTH_USER_MODEL = 'usuarios.User'
 
 # Apps
 DJANGO_APPS = [
